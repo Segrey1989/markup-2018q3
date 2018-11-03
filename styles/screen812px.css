@@ -1,0 +1,526 @@
+@media (max-width: 812px) {
+  html {
+    max-width: 812px;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    max-width: 100%;
+  }
+
+  #header-content {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  #logo {
+    width: 20%;
+  }
+
+  #logo a img {
+    width: 72%;
+  }
+
+  #navigation {
+    width: 80%;
+  }
+
+  #header-content nav a {
+    box-sizing: border-box;
+    display: block;
+    height: 90px;
+    float: left;
+    margin-right: 5%;
+    padding-top: 2.75rem;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  #navigation a:first-child {
+    margin-left: 10%;
+  }
+
+
+  main {
+    margin-top: -1rem;
+    max-width: 812px;
+  }
+
+  #table-section {
+    width: 100%;
+    height: 565px;
+  }
+
+  #table-section-content {
+    box-sizing: border-box;
+    width: 90%;
+  }
+
+  #table-section-content p {
+    text-align: center;
+  }
+
+  #select-row div {
+    box-sizing: border-box;
+    height: 100%;
+    margin-top: 0;
+    font-size: 0.9rem;
+  }
+
+  #select-row div:first-child {
+    width: 12%;
+    border-right: 1px solid #cbcbcb;
+    float: left;
+    padding-top: 1rem;
+  }
+
+  #select-row div:nth-child(2) {
+    width: 74%;
+    padding-top: 1rem;
+  }
+
+  #select-row .select {
+    width: 14%;
+  }
+
+  #select-row .select form select {
+    padding-top: 0.9rem;
+  }
+
+  .select {
+    background-position: 80% 55%;
+  }
+
+  /* Packages */
+  .table-container {
+    box-sizing: border-box;
+    width: 92.45%;
+    height: 15rem;
+  }
+
+  .table table tr {
+    box-sizing: border-box;
+  }
+
+  .table table td {
+    box-sizing: border-box;
+  }
+
+  /*Table cells text align*/
+  .table table tr:first-child td:nth-child(1),
+  .table table tr:last-child td:nth-child(1),
+  .table table tr:first-child td:nth-child(2),
+  .table table tr:last-child td:nth-child(2),
+  .table table tr:first-child td:nth-child(3),
+  .table table tr:last-child td:nth-child(3) {
+    padding-left: 2.5rem;
+  }
+
+  .table table tr:first-child td:nth-child(4),
+  .table table tr:last-child td:nth-child(4) {
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .second {
+    left: 22.6%;
+    top: 46%;
+  }
+
+  .third {
+    left: 49.2%;
+    top: 46%;
+  }
+
+  .fourth {
+    right: 22%;
+    top: 46%;
+  }
+
+  #packages-container {
+    width: 100%;
+    height: 900px;
+    margin: 0;
+  }
+
+  .packages-bg {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    margin-top: 2rem;
+  }
+
+  .plans {
+    width: 100%;
+    height: 39.5rem;
+    border-bottom: 2px dashed #d8d8d8;
+  }
+
+  .plans > div {
+    box-sizing: border-box;
+    width: 33%;
+    height: 25rem;
+  }
+
+  .one-quater,
+  .two-quaters,
+  .three-quaters,
+  .four-quaters {
+    top: 4%;
+    right: 40%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .basic table,
+  .normal table,
+  .big table,
+  .biggest table {
+    font-size: 1rem;
+  }
+
+  .basic table tr td:last-child,
+  .normal table tr td:last-child,
+  .big table tr td:last-child,
+  .biggest table tr td:last-child {
+    font-size: 1rem;
+  }
+
+  .price span + span {
+    font-size: 1.5em;
+  }
+
+  .price span:first-child {
+    font-size: 1em;
+  }
+
+  .basic {
+    left: 10%;
+    top: -45%;
+  }
+
+  .basic h2 {
+    left: 23%;
+  }
+
+  .normal {
+    left: 55%;
+    top: -45%;
+  }
+
+  .normal h2 {
+    left: 20%;
+  }
+
+  .big {
+    left: 10%;
+    top: 25%;
+  }
+
+  .big h2 {
+    left: 26%;
+  }
+
+  .biggest {
+    top: 25%;
+    left: 55%;
+  }
+
+  .biggest h2 {
+    left: 20%;
+  }
+
+  .price {
+    top: 20%;
+    padding-bottom: 5%;
+    left: 25%;
+  }
+
+  #about_us {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  #about_us > div:first-child {
+    display: block;
+    width: 100%;
+    height: 35%;
+    box-sizing: border-box;
+    padding: 4% 4% 0 4%;
+    margin: 0;
+    border-right: none;
+  }
+
+  #about_us > div:first-child h2 {
+    font-size: 2.1rem;
+  }
+
+  #about_us > div:last-child {
+    display: block;
+    width: 100%;
+    margin: 5% 0 0 0;
+  }
+
+  .jonny img {
+    padding-left: 30%;
+  }
+
+  .jonny p:first-child {
+    padding-left: 35%;
+  }
+
+  .jonny p:nth-child(2) {
+    padding-left: 39%;
+  }
+
+  .jonny figcaption > div a:nth-child(1) i {
+    margin-left: 37%;
+  }
+
+  .jonny figcaption > div a:nth-child(2) i {
+    margin-left: 8%;
+  }
+
+  .jonny figcaption > div a:nth-child(3) i {
+    margin-left: 8%;
+  }
+
+  .john img {
+    padding-left: 23%;
+  }
+
+  .john p:first-child {
+    padding-left: 30%;
+  }
+
+  .john p:nth-child(2) {
+    padding-left: 33%;
+  }
+
+  .john figcaption > div a:nth-child(1) i {
+    margin-left: 30%;
+  }
+
+  .john figcaption > div a:nth-child(2) i {
+    margin-left: 8%;
+  }
+
+  .john figcaption > div a:nth-child(3) i {
+    margin-left: 8%;
+  }
+
+  .johnatan img {
+    padding-left: 20%;
+  }
+
+  .johnatan p:first-child {
+    padding-left: 20%;
+  }
+
+  .johnatan p:nth-child(2) {
+    padding-left: 28%;
+  }
+
+  .johnatan figcaption > div a:nth-child(1) i {
+    margin-left: 25%;
+  }
+
+  .johnatan figcaption > div a:nth-child(2) i {
+    margin-left: 8%;
+  }
+
+  .johnatan figcaption > div a:nth-child(3) i {
+    margin-left: 8%;
+  }
+
+  #about_us > div:last-child figure figcaption div i:hover {
+    cursor: pointer;
+  }
+
+  /* Slider */
+  #slider-body {
+    margin-top: 0;
+  }
+
+  .sliderA {
+    width: 100%;
+  }
+
+  .sliderA > input + label {
+    top: 66%;
+  }
+
+  .sliderA > div p {
+    font-size: 1.1rem;
+  }
+
+  #service-container {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+
+  #service-container div {
+    position: relative;
+    box-sizing: border-box;
+    width: 22%;
+    height: 80%;
+    font-size: 1em;
+  }
+
+  #service-container div {
+    top: 10%;
+  }
+
+  #service-container div:nth-child(1) {
+    left: 3%;
+  }
+
+  #service-container div:nth-child(2) {
+    left: 4.5%;
+  }
+
+  #service-container div:nth-child(3) {
+    left: 5.5%;
+  }
+
+  #service-container div:nth-child(4) {
+    left: 7%;
+  }
+
+  #service-container div p {
+    font-size: 1.1rem;
+  }
+
+  footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 290px;
+  }
+
+  #footer-nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #logo-bottom {
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+  }
+
+  #logo-bottom img {
+    width: 40%;
+    height: 50%;
+    padding-top: 22px;
+    padding-left: 10%;
+  }
+
+  #footer-nav nav {
+    box-sizing: content-box;
+    width: 70%;
+  }
+
+  #footer-nav nav ul li {
+    margin-top: 20px;
+    margin-right: 7%;
+  }
+
+  #footer-bottom {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 100%;
+  }
+
+  #footer-bottom > div:nth-child(1) {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 3% 0 2%;
+    width: 30%;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 1.5rem;
+    border: none;
+  }
+
+  #footer-bottom > div:nth-child(2) {
+    box-sizing: border-box;
+    float: left;
+    width: 40%;
+    height: inherit;
+    margin: 0;
+    border-right: 1px solid #878787;
+    border-left: 1px solid #878787;
+  }
+
+  #footer-bottom > div:nth-child(2) ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #footer-bottom > div:nth-child(2) ul li {
+    list-style-type: none;
+    line-height: 2rem;
+  }
+
+  #footer-bottom > div:nth-child(2) ul li a {
+    font-family: 'Lato-Light';
+    font-size: 0.8rem;
+  }
+
+  #footer-bottom > div:nth-child(2) ul li a:hover:before {
+    content: '>\a0';
+    color: #ffffff;
+  }
+
+  #footer-bottom div:nth-child(2) > div:first-child {
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 0;
+    padding-left: 2%;
+  }
+
+  #footer-bottom div:nth-child(2) > div:last-child {
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 0;
+    padding-right: 2%;
+  }
+
+  #footer-bottom > div:nth-child(3) {
+    width: 30%;
+    border-left: none;
+  }
+
+  #footer-bottom > div:nth-child(3) a,
+  #footer-bottom > div:nth-child(3) p {
+    font-size: 0.8rem;
+    padding-left: 3%;
+  }
+
+  #footer-bottom > div:nth-child(3) a {
+    font-size: 0.7rem;
+    padding-bottom: 0;
+    line-height: 1rem;
+    padding-left: 1%;
+  }
+
+  #footer-bottom > div:nth-child(3) a:first-child span:before {
+    content: '';
+  }
+
+  #footer-bottom > div:nth-child(3) a:nth-child(2) span:before {
+    content: '';
+  }
+
+  #footer-bottom > div:nth-child(3) p {
+    margin-top: 0;
+    line-height: 1.6rem;
+  }
+}
