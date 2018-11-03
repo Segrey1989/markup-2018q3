@@ -21,6 +21,21 @@
     margin-left: 6%;
   }
 
+  .plans > div > div h2 {
+    width: 100%;
+    top: 19%;
+    left: 0;
+    text-align: center;
+  }
+
+  .basic table,
+  .normal table,
+  .big table,
+  .biggest table {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+
   .price {
     width: 60%;
     top: 20%;
@@ -36,6 +51,11 @@
     width: 60%;
   }
 
+  #about_us > div:first-child p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
   #about_us > div:last-child figure {
     box-sizing: border-box;
     height: 100%;
@@ -45,9 +65,23 @@
     display: inline-block;
   }
 
+  #about_us > div:last-child figure figcaption p:nth-child(1) {
+    font-size: 1.5em;
+  }
+
   .sliderA {
     width: 100%;
   }
+
+  #service-container div p {
+    margin: 0;
+    font-family: "Lato-Regular";
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #878787;
+    text-align: center;
+  }
+
 
   #logo-bottom {
     width: 30%;
