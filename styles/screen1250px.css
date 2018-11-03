@@ -1,0 +1,97 @@
+@media (max-width: 1250px) {
+
+  #logo {
+    width: 30%;
+  }
+
+  #logo a img {
+    width: 35%;
+  }
+
+  #navigation {
+    width: 70%;
+  }
+
+  #header-content nav a {
+    margin-right: 7%;
+    font-size: 1.5em;
+  }
+
+  #navigation a:first-child {
+    margin-left: 6%;
+  }
+
+  .price {
+    width: 60%;
+    top: 20%;
+    left: 20%;
+  }
+
+  #about_us > div:first-child {
+    float: left;
+    width: 40%;
+  }
+
+  #about_us > div:last-child {
+    width: 60%;
+  }
+
+  #about_us > div:last-child figure {
+    box-sizing: border-box;
+    height: 100%;
+    width: 29%;
+    margin: 0;
+    padding-top: 0.4rem;
+    display: inline-block;
+  }
+
+  .sliderA {
+    width: 100%;
+  }
+
+  #logo-bottom {
+    width: 30%;
+  }
+
+  #logo-bottom img {
+    width: 40%;
+    height: 100%;
+  }
+
+  footer {
+    height: 10%;
+  }
+
+  #footer-nav nav {
+    width: 70%;
+  }
+
+  #footer-nav nav ul li {
+    margin-right: 10%;
+  }
+
+  #footer-bottom > div:nth-child(2) ul li a:before {
+    font-size: 0.9rem;
+  }
+
+  #footer-bottom > div:nth-child(2) ul li a {
+    font-size: 0.8rem;
+  }
+
+  #footer-bottom > div:nth-child(3) a,
+  #footer-bottom > div:nth-child(3) p {
+    font-family: 'Lato-Light';
+    font-size: 0.8rem;
+    color: #878787;
+    padding-left: 1rem;
+  }
+
+  #footer-bottom > div:nth-child(3) a {
+    display: block;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+  }
+
+}

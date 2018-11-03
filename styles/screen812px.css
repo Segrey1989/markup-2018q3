@@ -19,7 +19,7 @@
   }
 
   #logo a img {
-    width: 70%;
+    width: 72%;
   }
 
   #navigation {
@@ -252,6 +252,7 @@
     box-sizing: border-box;
     padding: 4% 4% 0 4%;
     margin: 0;
+    border-right: none;
   }
 
   #about_us > div:first-child h2 {
@@ -413,7 +414,8 @@
   }
 
   #logo-bottom img {
-    width: 50%;
+    width: 40%;
+    height: 50%;
     padding-top: 22px;
     padding-left: 10%;
   }
